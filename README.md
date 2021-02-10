@@ -1,5 +1,5 @@
 # PIC32 Development Kit
-
+![](https://github.com/sampidevkit/PIC32DevKit/blob/main/Docs/PIC32DevKit%20Diagram.png?raw=true)
 ## Overview
 * Drag-n-Drop progarmmer.
 * USB to UART bridge.
