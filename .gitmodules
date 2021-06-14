@@ -31,3 +31,6 @@
 [submodule "FW/Library/usb"]
 	path = FW/Library/usb
 	url = https://sampidevkit@bitbucket.org/sampicontributors/usb.git
+[submodule "HW/model3d"]
+	path = HW/model3d
+	url = https://sampidevkit@bitbucket.org/sampicontributors/model3d.git
