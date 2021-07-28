@@ -4,6 +4,31 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <logicalFolder name="MCC Generated Files"
+                     displayName="MCC Generated Files"
+                     projectFiles="true">
+        <logicalFolder name="usb" displayName="usb" projectFiles="true">
+          <itemPath>mcc_generated_files/usb/usb_common.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_device_config.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_device_local.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_ch9.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_device.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_hal_pic32mm.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_device_generic.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_hal.h</itemPath>
+          <itemPath>mcc_generated_files/usb/usb.h</itemPath>
+        </logicalFolder>
+        <itemPath>mcc_generated_files/interrupt_manager.h</itemPath>
+        <itemPath>mcc_generated_files/coretimer.h</itemPath>
+        <itemPath>mcc_generated_files/mcc.h</itemPath>
+        <itemPath>mcc_generated_files/pin_manager.h</itemPath>
+        <itemPath>mcc_generated_files/system.h</itemPath>
+        <itemPath>mcc_generated_files/watchdog.h</itemPath>
+        <itemPath>mcc_generated_files/clock.h</itemPath>
+        <itemPath>mcc_generated_files/exceptions.h</itemPath>
+        <itemPath>mcc_generated_files/uart3.h</itemPath>
+        <itemPath>mcc_generated_files/uart2.h</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -12,6 +37,29 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <logicalFolder name="MCC Generated Files"
+                     displayName="MCC Generated Files"
+                     projectFiles="true">
+        <logicalFolder name="usb" displayName="usb" projectFiles="true">
+          <logicalFolder name="utilities" displayName="utilities" projectFiles="true">
+            <itemPath>mcc_generated_files/usb/utilities/mchpwinusb_template.inf</itemPath>
+          </logicalFolder>
+          <itemPath>mcc_generated_files/usb/usb_device.c</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_device_generic.c</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_device_events.c</itemPath>
+          <itemPath>mcc_generated_files/usb/usb_descriptors.c</itemPath>
+        </logicalFolder>
+        <itemPath>mcc_generated_files/interrupt_manager.c</itemPath>
+        <itemPath>mcc_generated_files/coretimer.c</itemPath>
+        <itemPath>mcc_generated_files/pin_manager.c</itemPath>
+        <itemPath>mcc_generated_files/mcc.c</itemPath>
+        <itemPath>mcc_generated_files/clock.c</itemPath>
+        <itemPath>mcc_generated_files/exceptions.c</itemPath>
+        <itemPath>mcc_generated_files/system.c</itemPath>
+        <itemPath>mcc_generated_files/uart2.c</itemPath>
+        <itemPath>mcc_generated_files/uart3.c</itemPath>
+      </logicalFolder>
+      <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

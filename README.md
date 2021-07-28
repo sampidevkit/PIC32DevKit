@@ -1,20 +1,20 @@
-# PIC32MM0XXXGPM064 MICROCONTROLLER DEVELOPMENT KIT
-![](https://github.com/sampidevkit/PIC32DevKit/blob/master/HW/Product/Picture/PIC32DevKit.png?raw=true)
+# PIC32MM MICROCONTROLLER DEVELOPMENT KIT
+![](https://github.com/sampidevkit/PIC32DevKit/blob/main/HW/Product/Picture/PIC32DevKit.png?raw=true)
 <br/>Đây là thiết kế mở - một kit phát triển vi điều khiển 32-bit họ PIC32MM. Kit được trang bị các tính năng như sau:<br/>
 * PCB và các ngõ vào ra theo định dạng của Arduino Uno.
 * Mạch nạp tích hợp theo kiểu USB lưu trữ, tệp hex sẽ được kéo - thả để nạp trực tiếp mà không cần sử dụng phần mềm nạp cũng như các mạch nạp bên ngoài như PICKit, ICD, ..., tuy nhiên người dùng vẫn có thể sử dụng được các mạch nạp chuyên dụng kết nối với cổng ICSP được thiết kế sẵn.
 * Cổng chuyển đổi USB - UART, người dùng không cần sử dụng thêm thiết bị chuyển đổi bên ngoài như CP2102, FT232, ...
 * Khe cắm thẻ nhớ. Giao tiếp SPI với MCU chính.
-* Bộ chuyển đổi logic để giao tiếp với RGB chip LED (APA102, WS2812, SK9822, ...) <br/>
+* Bộ chuyển đổi logic để giao tiếp với RGB chip LED (APA102, WS2812, SK9822, ...). <br/>
 ## 1. Sơ Đồ Khối
-![](https://github.com/sampidevkit/PIC32FDevKit/blob/master/HW/Product/Schematic/PIC32DevKit_001.png?raw=true)
+![](https://github.com/sampidevkit/PIC32DevKit/blob/main/HW/Product/Picture/PIC32DevKit_001.png?raw=true)
 
 ## 2. Sơ Đồ Nguyên Lý
-![](https://github.com/sampidevkit/PIC32FDevKit/blob/master/HW/Product/Schematic/PIC32DevKit_002.png?raw=true)
+![](https://github.com/sampidevkit/PIC32DevKit/blob/main/HW/Product/Picture/PIC32DevKit_002.png?raw=true)
 <br/>
-![](https://github.com/sampidevkit/PIC32FDevKit/blob/master/HW/Product/Schematic/PIC32DevKit_003.png?raw=true)
+![](https://github.com/sampidevkit/PIC32DevKit/blob/main/HW/Product/Picture/PIC32DevKit_003.png?raw=true)
 <br/>
-![](https://github.com/sampidevkit/PIC32FDevKit/blob/master/HW/Product/Schematic/PIC32DevKit_004.png?raw=true)
+![](https://github.com/sampidevkit/PIC32DevKit/blob/main/HW/Product/Picture/PIC32DevKit_004.png?raw=true)
 
 ## 3. Vi Điều Khiển Chính PIC32MM0XXXGPM064
 Họ vi điều khiển PIC32MM là họ vi điều khiển 32-bit sử dụng core MIPS microAptiv.<br/>
