@@ -36,11 +36,11 @@ Môi trường lập trình MPLAB X IDE sử dụng mã nguồn của Netbeans, 
 Khuyến cáo: Sử dụng Windows 64bit với RAM tối thiểu 4GB và ổ cứng trống từ 20GB.
 
 ### 4.2. Trình Biên Dịch MPLAB XC32
-Nếu sử dụng ngôn ngữ lập trình C để lập trình cho Kit, bạn cần tải về trình biên dịch XC8. Nó sẽ chuyển mã C thành mã assembly. </br>
+Nếu sử dụng ngôn ngữ lập trình C để lập trình cho Kit, bạn cần tải về trình biên dịch XC32. Nó sẽ chuyển mã C thành mã assembly. </br>
 ![](https://microchipdeveloper.com/local--files/mplabx:lesson1-4/CompilerWork2.png)
-</br>Sau đó, nó sẽ chuyển mã assembly sang mã máy dưới dạng file HEX. Bạn cũng có thể sử dụng XC8 để biên dịch cho mã nguồn được viết trực tiếp bằng assembly. 
+</br>Sau đó, nó sẽ chuyển mã assembly sang mã máy dưới dạng file HEX. Bạn cũng có thể sử dụng XC32 để biên dịch cho mã nguồn được viết trực tiếp bằng assembly. 
 ![](https://microchipdeveloper.com/local--files/mplabx:lesson1-4/HEXFile.png)
-</br>Trình biên dịch có thể sử dụng miễn phí, không giới hạn code size, chỉ giới hạn các cấp độ tối ưu mã nguồn. Chức năng tối ưu mã nguồn sử dụng trong sản xuất, không cần thiết trong học tập. Tải về và hướng dẫn cài đặt tại đây: [Installing MPLAB® XC8 Compiler](https://microchipdeveloper.com/xc32:installation).
+</br>Trình biên dịch có thể sử dụng miễn phí, không giới hạn code size, chỉ giới hạn các cấp độ tối ưu mã nguồn. Chức năng tối ưu mã nguồn sử dụng trong sản xuất, không cần thiết trong học tập. Tải về và hướng dẫn cài đặt tại đây: [Installing MPLAB® XC32 Compiler](https://microchipdeveloper.com/xc32:installation).
 
 ### 4.3. Công Cụ Cấu Hình và Tạo Code Mẫu MPLAB Code Configurator (MCC)
 MCC là một plugin của MPLAB X IDE, hỗ trợ tạo cấu hình chip, cấu hình các ngoại vi và các API để người dùng sử dụng mà không mất nhiều thời gian xây dựng chúng. </br>
