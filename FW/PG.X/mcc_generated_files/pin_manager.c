@@ -61,15 +61,15 @@ void PIN_MANAGER_Initialize (void)
     /****************************************************************************
      * Setting the Output Latch SFR(s)
      ***************************************************************************/
-    LATA = 0x0004;
-    LATB = 0x831A;
+    LATA = 0x0014;
+    LATB = 0x830A;
     LATC = 0x0200;
 
     /****************************************************************************
      * Setting the GPIO Direction SFR(s)
      ***************************************************************************/
-    TRISA = 0x0013;
-    TRISB = 0x6CE1;
+    TRISA = 0x0003;
+    TRISB = 0x6CF1;
     TRISC = 0x0000;
 
     /****************************************************************************
@@ -101,10 +101,10 @@ void PIN_MANAGER_Initialize (void)
     SYSTEM_RegUnlock(); // unlock PPS
     RPCONbits.IOLOCK = 0;
 
-    RPINR9bits.U2RXR = 0x0005;    //RA4->UART2:U2RX
-    RPOR2bits.RP10R = 0x0004;    //RB4->UART2:U2TX
     RPINR8bits.U3RXR = 0x0006;    //RB0->UART3:U3RX
+    RPOR1bits.RP5R = 0x0004;    //RA4->UART2:U2TX
     RPOR1bits.RP7R = 0x0006;    //RB1->UART3:U3TX
+    RPINR9bits.U2RXR = 0x000A;    //RB4->UART2:U2RX
 
     RPCONbits.IOLOCK = 1; // lock   PPS
     SYSTEM_RegLock(); 

@@ -83,8 +83,8 @@
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
-#include "uart3.h"
 #include "uart2.h"
+#include "uart3.h"
 #include "interrupt_manager.h"
 #include "exceptions.h"
 #include "usb/usb.h"
@@ -93,8 +93,8 @@
 void SYSTEM_Initialize(void)
 {
     PIN_MANAGER_Initialize();
-    INTERRUPT_Initialize();
     CLOCK_Initialize();
+    INTERRUPT_Initialize();
     CORETIMER_Initialize();
     USBDeviceInit();
     UART2_Initialize();
