@@ -4,7 +4,7 @@ LABCENTER PROTEUS TOOL INFORMATION FILE
 In case of difficulty, please e-mail support@labcenter.co.uk
 
 Tool set up for Proteus layout 'PIC32DevKit.pdsprj'.
-CADCAM generated at 22:03:45 on Wednesday, 04.08.2021.
+CADCAM generated at 22:28:18 on Friday, 06.08.2021.
 
 File List
 ---------
@@ -68,81 +68,83 @@ D45	RECT    W=1.397mm             H=0.889mm                                   FL
 D46	RECT    W=2.15mm              H=5.5mm                                     FLASH
 D47	RECT    W=2.286mm             H=2.032mm                                   FLASH
 D48	CIRCLE  D=0.889mm                                                         FLASH
-D49	CIRCLE  D=0.025mm                                                         DRAW 
-D50	CIRCLE  D=0.032mm                                                         DRAW 
-D51	CIRCLE  D=0.127mm                                                         DRAW 
-D52	PPAD    W=1.954mm             H=0.654mm             I=5                   FLASH
-D53	PPAD    W=2.154mm             H=2.154mm             I=6                   FLASH
-D54	PPAD    W=1.754mm             H=1.754mm             I=7                   FLASH
-D55	PPAD    W=0.954mm             H=1.254mm             I=8                   FLASH
-D56	PPAD    W=1.054mm             H=1.054mm             I=9                   FLASH
-D57	PPAD    W=2.454mm             H=1.904mm             I=10                  FLASH
-D58	PPAD    W=1.304mm             H=1.154mm             I=11                  FLASH
-D59	PPAD    W=1.754mm             H=3.454mm             I=12                  FLASH
-D60	PPAD    W=1.154mm             H=1.154mm             I=13                  FLASH
-D61	CIRCLE  D=1.154mm                                                         FLASH
-D62	PPAD    W=1.854mm             H=1.854mm             I=14                  FLASH
-D63	CIRCLE  D=1.854mm                                                         FLASH
-D64	PPAD    W=2.644mm             H=1.304mm             I=15                  FLASH
-D65	PPAD    W=1.454mm             H=1.304mm             I=16                  FLASH
-D66	PPAD    W=1.334mm             H=1.304mm             I=17                  FLASH
-D67	PPAD    W=0.804mm             H=3.164mm             I=18                  FLASH
-D68	PPAD    W=1.254mm             H=0.754mm             I=19                  FLASH
-D69	PPAD    W=1.034mm             H=0.974mm             I=20                  FLASH
-D74	PPAD    W=1.104mm             H=0.454mm             I=21                  FLASH
-D75	PPAD    W=0.454mm             H=1.104mm             I=22                  FLASH
-D76	PPAD    W=2.254mm             H=2.254mm             I=23                  FLASH
-D77	PPAD    W=1.034mm             H=1.034mm             I=24                  FLASH
-D78	PPAD    W=1.754mm             H=0.554mm             I=25                  FLASH
-D79	PPAD    W=0.554mm             H=1.754mm             I=26                  FLASH
-D80	PPAD    W=0.904mm             H=0.904mm             I=27                  FLASH
-D81	PPAD    W=1.254mm             H=0.914mm             I=28                  FLASH
-D82	PPAD    W=0.854mm             H=1.454mm             I=29                  FLASH
-D83	PPAD    W=1.104mm             H=0.554mm             I=30                  FLASH
-D84	PPAD    W=1.154mm             H=1.304mm             I=31                  FLASH
-D85	PPAD    W=2.054mm             H=2.154mm             I=32                  FLASH
-D86	PPAD    W=1.651mm             H=1.143mm             I=33                  FLASH
-D87	PPAD    W=2.404mm             H=5.754mm             I=34                  FLASH
-D88	PPAD    W=2.54mm              H=2.286mm             I=35                  FLASH
-D89	CIRCLE  D=1.143mm                                                         FLASH
-D90	PPAD    W=0.85mm              H=0.2mm               I=36                  FLASH
-D91	PPAD    W=0.2mm               H=0.85mm              I=37                  FLASH
-D92	PPAD    W=2mm                 H=2mm                 I=38                  FLASH
-D93	CIRCLE  D=0.36mm                                                          DRAW 
-D94	CIRCLE  D=0.303mm                                                         DRAW 
-D95	CIRCLE  D=0.16mm                                                          DRAW 
-D96	CIRCLE  D=0.32mm                                                          DRAW 
-D97	CIRCLE  D=0.067mm                                                         DRAW 
-D98	CIRCLE  D=0.089mm                                                         DRAW 
-D99	CIRCLE  D=0.42mm                                                          DRAW 
-D100	CIRCLE  D=0.068mm                                                         DRAW 
-D101	CIRCLE  D=1.28mm                                                          DRAW 
-D102	CIRCLE  D=0.142mm                                                         DRAW 
-D103	CIRCLE  D=0.151mm                                                         DRAW 
-D104	CIRCLE  D=0.64mm                                                          DRAW 
-D105	CIRCLE  D=0.178mm                                                         DRAW 
-D106	CIRCLE  D=0.432mm                                                         DRAW 
-D107	CIRCLE  D=0.18mm                                                          DRAW 
-D108	CIRCLE  D=0.162mm                                                         DRAW 
-D109	CIRCLE  D=0.27mm                                                          DRAW 
-D110	CIRCLE  D=0.329mm                                                         DRAW 
-D111	CIRCLE  D=0.26mm                                                          DRAW 
-D112	CIRCLE  D=0.072mm                                                         DRAW 
-D113	CIRCLE  D=0.113mm                                                         DRAW 
-D114	CIRCLE  D=0.48mm                                                          DRAW 
-D115	CIRCLE  D=0.05mm                                                          DRAW 
-D116	CIRCLE  D=0.12mm                                                          DRAW 
-D117	CIRCLE  D=0.76mm                                                          DRAW 
-D118	CIRCLE  D=0.15mm                                                          DRAW 
-D119	CIRCLE  D=0.559mm                                                         DRAW 
-D120	CIRCLE  D=0.084mm                                                         DRAW 
-D121	CIRCLE  D=1.935mm                                                         DRAW 
-D122	CIRCLE  D=0.204mm                                                         DRAW 
-D123	CIRCLE  D=0.161mm                                                         DRAW 
-D124	CIRCLE  D=0.914mm                                                         DRAW 
-D125	CIRCLE  D=0.121mm                                                         DRAW 
-D126	CIRCLE  D=0.038mm                                                         DRAW 
-D127	CIRCLE  D=0.064mm                                                         DRAW 
+D49	CIRCLE  D=1mm                                                             FLASH
+D50	CIRCLE  D=0.025mm                                                         DRAW 
+D51	CIRCLE  D=0.032mm                                                         DRAW 
+D52	CIRCLE  D=0.127mm                                                         DRAW 
+D53	PPAD    W=1.954mm             H=0.654mm             I=5                   FLASH
+D54	PPAD    W=2.154mm             H=2.154mm             I=6                   FLASH
+D55	PPAD    W=1.754mm             H=1.754mm             I=7                   FLASH
+D56	PPAD    W=0.954mm             H=1.254mm             I=8                   FLASH
+D57	PPAD    W=1.054mm             H=1.054mm             I=9                   FLASH
+D58	PPAD    W=2.454mm             H=1.904mm             I=10                  FLASH
+D59	PPAD    W=1.304mm             H=1.154mm             I=11                  FLASH
+D60	PPAD    W=1.754mm             H=3.454mm             I=12                  FLASH
+D61	PPAD    W=1.154mm             H=1.154mm             I=13                  FLASH
+D62	CIRCLE  D=1.154mm                                                         FLASH
+D63	PPAD    W=1.854mm             H=1.854mm             I=14                  FLASH
+D64	CIRCLE  D=1.854mm                                                         FLASH
+D65	PPAD    W=2.644mm             H=1.304mm             I=15                  FLASH
+D66	PPAD    W=1.454mm             H=1.304mm             I=16                  FLASH
+D67	PPAD    W=1.334mm             H=1.304mm             I=17                  FLASH
+D68	PPAD    W=0.804mm             H=3.164mm             I=18                  FLASH
+D69	PPAD    W=1.254mm             H=0.754mm             I=19                  FLASH
+D74	PPAD    W=1.034mm             H=0.974mm             I=20                  FLASH
+D75	PPAD    W=1.104mm             H=0.454mm             I=21                  FLASH
+D76	PPAD    W=0.454mm             H=1.104mm             I=22                  FLASH
+D77	PPAD    W=2.254mm             H=2.254mm             I=23                  FLASH
+D78	PPAD    W=1.034mm             H=1.034mm             I=24                  FLASH
+D79	PPAD    W=1.754mm             H=0.554mm             I=25                  FLASH
+D80	PPAD    W=0.554mm             H=1.754mm             I=26                  FLASH
+D81	PPAD    W=0.904mm             H=0.904mm             I=27                  FLASH
+D82	PPAD    W=1.254mm             H=0.914mm             I=28                  FLASH
+D83	PPAD    W=0.854mm             H=1.454mm             I=29                  FLASH
+D84	PPAD    W=1.104mm             H=0.554mm             I=30                  FLASH
+D85	PPAD    W=1.154mm             H=1.304mm             I=31                  FLASH
+D86	PPAD    W=2.054mm             H=2.154mm             I=32                  FLASH
+D87	PPAD    W=1.651mm             H=1.143mm             I=33                  FLASH
+D88	PPAD    W=2.404mm             H=5.754mm             I=34                  FLASH
+D89	PPAD    W=2.54mm              H=2.286mm             I=35                  FLASH
+D90	CIRCLE  D=1.143mm                                                         FLASH
+D91	CIRCLE  D=2mm                                                             FLASH
+D92	PPAD    W=0.85mm              H=0.2mm               I=36                  FLASH
+D93	PPAD    W=0.2mm               H=0.85mm              I=37                  FLASH
+D94	PPAD    W=2mm                 H=2mm                 I=38                  FLASH
+D95	CIRCLE  D=0.36mm                                                          DRAW 
+D96	CIRCLE  D=0.303mm                                                         DRAW 
+D97	CIRCLE  D=0.16mm                                                          DRAW 
+D98	CIRCLE  D=0.32mm                                                          DRAW 
+D99	CIRCLE  D=0.067mm                                                         DRAW 
+D100	CIRCLE  D=0.089mm                                                         DRAW 
+D101	CIRCLE  D=0.42mm                                                          DRAW 
+D102	CIRCLE  D=0.068mm                                                         DRAW 
+D103	CIRCLE  D=1.28mm                                                          DRAW 
+D104	CIRCLE  D=0.142mm                                                         DRAW 
+D105	CIRCLE  D=0.151mm                                                         DRAW 
+D106	CIRCLE  D=0.64mm                                                          DRAW 
+D107	CIRCLE  D=0.178mm                                                         DRAW 
+D108	CIRCLE  D=0.432mm                                                         DRAW 
+D109	CIRCLE  D=0.18mm                                                          DRAW 
+D110	CIRCLE  D=0.162mm                                                         DRAW 
+D111	CIRCLE  D=0.27mm                                                          DRAW 
+D112	CIRCLE  D=0.329mm                                                         DRAW 
+D113	CIRCLE  D=0.26mm                                                          DRAW 
+D114	CIRCLE  D=0.072mm                                                         DRAW 
+D115	CIRCLE  D=0.113mm                                                         DRAW 
+D116	CIRCLE  D=0.48mm                                                          DRAW 
+D117	CIRCLE  D=0.05mm                                                          DRAW 
+D118	CIRCLE  D=0.12mm                                                          DRAW 
+D119	CIRCLE  D=0.76mm                                                          DRAW 
+D120	CIRCLE  D=0.15mm                                                          DRAW 
+D121	CIRCLE  D=0.559mm                                                         DRAW 
+D122	CIRCLE  D=0.084mm                                                         DRAW 
+D123	CIRCLE  D=1.935mm                                                         DRAW 
+D124	CIRCLE  D=0.204mm                                                         DRAW 
+D125	CIRCLE  D=0.161mm                                                         DRAW 
+D126	CIRCLE  D=0.914mm                                                         DRAW 
+D127	CIRCLE  D=0.121mm                                                         DRAW 
+D128	CIRCLE  D=0.038mm                                                         DRAW 
+D129	CIRCLE  D=0.064mm                                                         DRAW 
 
 NC Drill Setup
 --------------
