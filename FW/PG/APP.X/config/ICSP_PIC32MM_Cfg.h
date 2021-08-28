@@ -1,0 +1,6 @@
+#ifndef ICSP_PIC32MM_CFG_H
+#define ICSP_PIC32MM_CFG_H
+
+#define TARGET_MCU_PIC32MM0256GPM064
+
+#endif
