@@ -84,7 +84,7 @@ If v2.0+ device:
 --------------------------------------------------------------------------------
 ********************************************************************************/
 bool SD_SPI_IsMediaInitialized(void);
-bool SD_SPI_MediaInitialize(void);
+void* SD_SPI_MediaInitialize(void);
 bool SD_SPI_IsMediaPresent(void);
 bool SD_SPI_IsWriteProtected(void);
 uint16_t SD_SPI_GetSectorSize(void);

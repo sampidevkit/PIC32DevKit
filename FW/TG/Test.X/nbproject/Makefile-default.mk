@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=app/libcomp.c app/AppMain.c cfg/user_usb_device_descriptors.c mcc_generated_files/drivers/spi_master.c mcc_generated_files/sd_spi/sd_spi.c mcc_generated_files/usb/usb_device.c mcc_generated_files/coretimer.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/rtcc.c mcc_generated_files/exceptions.c mcc_generated_files/clock.c mcc_generated_files/uart1.c mcc_generated_files/spi1_driver.c mcc_generated_files/clc1.c main.c ../../Library/buttons/ButtonApi.c ../../Library/buttons/Buttons.c ../../Library/common/UserFunctions.c ../../Library/fileio/fileio.c ../../Library/indicator/Indicator.c ../../Library/kit/kit.c ../../Library/kit/kit_usb_device.c ../../Library/kit/kit_usb_device_msd.c ../../Library/system/TaskManager.c ../../Library/system/TickCounter.c ../../Library/system/TickTimer.c ../../Library/system/Wdt.c ../../Library/usb/usb_device_msd.c ../../Library/usb/user_usb_device_events.c cfg/Indicator_Cfg.c
+SOURCEFILES_QUOTED_IF_SPACED=app/libcomp.c app/AppMain.c cfg/user_usb_device_descriptors.c cfg/usb_device_msd_cfg.c ../../Library/buttons/ButtonApi.c ../../Library/buttons/Buttons.c ../../Library/common/UserFunctions.c ../../Library/fileio/fileio.c ../../Library/kit/kit.c ../../Library/kit/kit_usb_device.c ../../Library/kit/kit_usb_device_msd.c ../../Library/system/TaskManager.c ../../Library/system/TickCounter.c ../../Library/system/TickTimer.c ../../Library/system/Wdt.c ../../Library/usb/usb_device_msd.c ../../Library/usb/user_usb_device_events.c mcc_generated_files/drivers/spi_master.c mcc_generated_files/sd_spi/sd_spi.c mcc_generated_files/usb/usb_device.c mcc_generated_files/coretimer.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/rtcc.c mcc_generated_files/exceptions.c mcc_generated_files/clock.c mcc_generated_files/uart1.c mcc_generated_files/spi1_driver.c mcc_generated_files/clc1.c main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/app/libcomp.o ${OBJECTDIR}/app/AppMain.o ${OBJECTDIR}/cfg/user_usb_device_descriptors.o ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o ${OBJECTDIR}/mcc_generated_files/sd_spi/sd_spi.o ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o ${OBJECTDIR}/mcc_generated_files/coretimer.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/rtcc.o ${OBJECTDIR}/mcc_generated_files/exceptions.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/spi1_driver.o ${OBJECTDIR}/mcc_generated_files/clc1.o ${OBJECTDIR}/main.o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ${OBJECTDIR}/_ext/1412088941/Buttons.o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ${OBJECTDIR}/_ext/1811300662/fileio.o ${OBJECTDIR}/_ext/915785733/Indicator.o ${OBJECTDIR}/_ext/1610024510/kit.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ${OBJECTDIR}/_ext/2096488509/Wdt.o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ${OBJECTDIR}/cfg/Indicator_Cfg.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/app/libcomp.o.d ${OBJECTDIR}/app/AppMain.o.d ${OBJECTDIR}/cfg/user_usb_device_descriptors.o.d ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o.d ${OBJECTDIR}/mcc_generated_files/sd_spi/sd_spi.o.d ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o.d ${OBJECTDIR}/mcc_generated_files/coretimer.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/rtcc.o.d ${OBJECTDIR}/mcc_generated_files/exceptions.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/uart1.o.d ${OBJECTDIR}/mcc_generated_files/spi1_driver.o.d ${OBJECTDIR}/mcc_generated_files/clc1.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d ${OBJECTDIR}/_ext/1412088941/Buttons.o.d ${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d ${OBJECTDIR}/_ext/1811300662/fileio.o.d ${OBJECTDIR}/_ext/915785733/Indicator.o.d ${OBJECTDIR}/_ext/1610024510/kit.o.d ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d ${OBJECTDIR}/_ext/2096488509/TaskManager.o.d ${OBJECTDIR}/_ext/2096488509/TickCounter.o.d ${OBJECTDIR}/_ext/2096488509/TickTimer.o.d ${OBJECTDIR}/_ext/2096488509/Wdt.o.d ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d ${OBJECTDIR}/cfg/Indicator_Cfg.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/app/libcomp.o ${OBJECTDIR}/app/AppMain.o ${OBJECTDIR}/cfg/user_usb_device_descriptors.o ${OBJECTDIR}/cfg/usb_device_msd_cfg.o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ${OBJECTDIR}/_ext/1412088941/Buttons.o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ${OBJECTDIR}/_ext/1811300662/fileio.o ${OBJECTDIR}/_ext/1610024510/kit.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ${OBJECTDIR}/_ext/2096488509/Wdt.o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o ${OBJECTDIR}/mcc_generated_files/sd_spi/sd_spi.o ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o ${OBJECTDIR}/mcc_generated_files/coretimer.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/rtcc.o ${OBJECTDIR}/mcc_generated_files/exceptions.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/spi1_driver.o ${OBJECTDIR}/mcc_generated_files/clc1.o ${OBJECTDIR}/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/app/libcomp.o.d ${OBJECTDIR}/app/AppMain.o.d ${OBJECTDIR}/cfg/user_usb_device_descriptors.o.d ${OBJECTDIR}/cfg/usb_device_msd_cfg.o.d ${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d ${OBJECTDIR}/_ext/1412088941/Buttons.o.d ${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d ${OBJECTDIR}/_ext/1811300662/fileio.o.d ${OBJECTDIR}/_ext/1610024510/kit.o.d ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d ${OBJECTDIR}/_ext/2096488509/TaskManager.o.d ${OBJECTDIR}/_ext/2096488509/TickCounter.o.d ${OBJECTDIR}/_ext/2096488509/TickTimer.o.d ${OBJECTDIR}/_ext/2096488509/Wdt.o.d ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o.d ${OBJECTDIR}/mcc_generated_files/sd_spi/sd_spi.o.d ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o.d ${OBJECTDIR}/mcc_generated_files/coretimer.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/rtcc.o.d ${OBJECTDIR}/mcc_generated_files/exceptions.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/uart1.o.d ${OBJECTDIR}/mcc_generated_files/spi1_driver.o.d ${OBJECTDIR}/mcc_generated_files/clc1.o.d ${OBJECTDIR}/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/app/libcomp.o ${OBJECTDIR}/app/AppMain.o ${OBJECTDIR}/cfg/user_usb_device_descriptors.o ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o ${OBJECTDIR}/mcc_generated_files/sd_spi/sd_spi.o ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o ${OBJECTDIR}/mcc_generated_files/coretimer.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/rtcc.o ${OBJECTDIR}/mcc_generated_files/exceptions.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/spi1_driver.o ${OBJECTDIR}/mcc_generated_files/clc1.o ${OBJECTDIR}/main.o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ${OBJECTDIR}/_ext/1412088941/Buttons.o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ${OBJECTDIR}/_ext/1811300662/fileio.o ${OBJECTDIR}/_ext/915785733/Indicator.o ${OBJECTDIR}/_ext/1610024510/kit.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ${OBJECTDIR}/_ext/2096488509/Wdt.o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ${OBJECTDIR}/cfg/Indicator_Cfg.o
+OBJECTFILES=${OBJECTDIR}/app/libcomp.o ${OBJECTDIR}/app/AppMain.o ${OBJECTDIR}/cfg/user_usb_device_descriptors.o ${OBJECTDIR}/cfg/usb_device_msd_cfg.o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ${OBJECTDIR}/_ext/1412088941/Buttons.o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ${OBJECTDIR}/_ext/1811300662/fileio.o ${OBJECTDIR}/_ext/1610024510/kit.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ${OBJECTDIR}/_ext/2096488509/Wdt.o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o ${OBJECTDIR}/mcc_generated_files/sd_spi/sd_spi.o ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o ${OBJECTDIR}/mcc_generated_files/coretimer.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/rtcc.o ${OBJECTDIR}/mcc_generated_files/exceptions.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/uart1.o ${OBJECTDIR}/mcc_generated_files/spi1_driver.o ${OBJECTDIR}/mcc_generated_files/clc1.o ${OBJECTDIR}/main.o
 
 # Source Files
-SOURCEFILES=app/libcomp.c app/AppMain.c cfg/user_usb_device_descriptors.c mcc_generated_files/drivers/spi_master.c mcc_generated_files/sd_spi/sd_spi.c mcc_generated_files/usb/usb_device.c mcc_generated_files/coretimer.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/rtcc.c mcc_generated_files/exceptions.c mcc_generated_files/clock.c mcc_generated_files/uart1.c mcc_generated_files/spi1_driver.c mcc_generated_files/clc1.c main.c ../../Library/buttons/ButtonApi.c ../../Library/buttons/Buttons.c ../../Library/common/UserFunctions.c ../../Library/fileio/fileio.c ../../Library/indicator/Indicator.c ../../Library/kit/kit.c ../../Library/kit/kit_usb_device.c ../../Library/kit/kit_usb_device_msd.c ../../Library/system/TaskManager.c ../../Library/system/TickCounter.c ../../Library/system/TickTimer.c ../../Library/system/Wdt.c ../../Library/usb/usb_device_msd.c ../../Library/usb/user_usb_device_events.c cfg/Indicator_Cfg.c
+SOURCEFILES=app/libcomp.c app/AppMain.c cfg/user_usb_device_descriptors.c cfg/usb_device_msd_cfg.c ../../Library/buttons/ButtonApi.c ../../Library/buttons/Buttons.c ../../Library/common/UserFunctions.c ../../Library/fileio/fileio.c ../../Library/kit/kit.c ../../Library/kit/kit_usb_device.c ../../Library/kit/kit_usb_device_msd.c ../../Library/system/TaskManager.c ../../Library/system/TickCounter.c ../../Library/system/TickTimer.c ../../Library/system/Wdt.c ../../Library/usb/usb_device_msd.c ../../Library/usb/user_usb_device_events.c mcc_generated_files/drivers/spi_master.c mcc_generated_files/sd_spi/sd_spi.c mcc_generated_files/usb/usb_device.c mcc_generated_files/coretimer.c mcc_generated_files/interrupt_manager.c mcc_generated_files/mcc.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/rtcc.c mcc_generated_files/exceptions.c mcc_generated_files/clock.c mcc_generated_files/uart1.c mcc_generated_files/spi1_driver.c mcc_generated_files/clc1.c main.c
 
 
 
@@ -144,6 +144,90 @@ ${OBJECTDIR}/cfg/user_usb_device_descriptors.o: cfg/user_usb_device_descriptors.
 	@${RM} ${OBJECTDIR}/cfg/user_usb_device_descriptors.o.d 
 	@${RM} ${OBJECTDIR}/cfg/user_usb_device_descriptors.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/cfg/user_usb_device_descriptors.o.d" -o ${OBJECTDIR}/cfg/user_usb_device_descriptors.o cfg/user_usb_device_descriptors.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/cfg/usb_device_msd_cfg.o: cfg/usb_device_msd_cfg.c  .generated_files/flags/default/5dd97313fd21b9d326e1fbcdb8bdedf45489f86c .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/cfg" 
+	@${RM} ${OBJECTDIR}/cfg/usb_device_msd_cfg.o.d 
+	@${RM} ${OBJECTDIR}/cfg/usb_device_msd_cfg.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/cfg/usb_device_msd_cfg.o.d" -o ${OBJECTDIR}/cfg/usb_device_msd_cfg.o cfg/usb_device_msd_cfg.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1412088941/ButtonApi.o: ../../Library/buttons/ButtonApi.c  .generated_files/flags/default/6b4e2d06414bc20ffa1a8e4e79c76eefd7505f30 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d" -o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ../../Library/buttons/ButtonApi.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1412088941/Buttons.o: ../../Library/buttons/Buttons.c  .generated_files/flags/default/65fd9c36a83a8ccef542beed2b1706e7ec97b2e3 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/Buttons.o.d" -o ${OBJECTDIR}/_ext/1412088941/Buttons.o ../../Library/buttons/Buttons.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1730991999/UserFunctions.o: ../../Library/common/UserFunctions.c  .generated_files/flags/default/c51630df3aa5d195a90eb360b4e0c0be4d9e50cf .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1730991999" 
+	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d" -o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ../../Library/common/UserFunctions.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1811300662/fileio.o: ../../Library/fileio/fileio.c  .generated_files/flags/default/5155347909306e325ac7ae9722c312ecbbda68fb .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1811300662" 
+	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1811300662/fileio.o.d" -o ${OBJECTDIR}/_ext/1811300662/fileio.o ../../Library/fileio/fileio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610024510/kit.o: ../../Library/kit/kit.c  .generated_files/flags/default/354c4f0f0389c74e2b933c1f7c1c2d332983b07a .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit.o ../../Library/kit/kit.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610024510/kit_usb_device.o: ../../Library/kit/kit_usb_device.c  .generated_files/flags/default/c6549bd741a9956c1aa0a6f807bb63fc3d3c686a .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ../../Library/kit/kit_usb_device.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o: ../../Library/kit/kit_usb_device_msd.c  .generated_files/flags/default/5a8bcac98fba1e874797a0fac08ac676cb1e663b .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ../../Library/kit/kit_usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/TaskManager.o: ../../Library/system/TaskManager.c  .generated_files/flags/default/427274509ded49985d269d0b61bd9f923dafb1e6 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TaskManager.o.d" -o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ../../Library/system/TaskManager.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/TickCounter.o: ../../Library/system/TickCounter.c  .generated_files/flags/default/695818059d5b7d808551648643544ce59c2ba640 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickCounter.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ../../Library/system/TickCounter.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/TickTimer.o: ../../Library/system/TickTimer.c  .generated_files/flags/default/8956c9a4b53c9318ae82949e8483981fa5d93c63 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickTimer.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ../../Library/system/TickTimer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/Wdt.o: ../../Library/system/Wdt.c  .generated_files/flags/default/75dfac963ef8aed4c380659f358772527ad7b704 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/Wdt.o.d" -o ${OBJECTDIR}/_ext/2096488509/Wdt.o ../../Library/system/Wdt.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610014608/usb_device_msd.o: ../../Library/usb/usb_device_msd.c  .generated_files/flags/default/4e03ec4d79f0112577c21ecf0635fc1ab01886da .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ../../Library/usb/usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o: ../../Library/usb/user_usb_device_events.c  .generated_files/flags/default/d93075269051ab3321a555cf8bdb4abad1eefe0a .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d" -o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ../../Library/usb/user_usb_device_events.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o: mcc_generated_files/drivers/spi_master.c  .generated_files/flags/default/672693f340e5bd2cfe7fd924a78e664e6bf946b2 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/drivers" 
@@ -235,96 +319,6 @@ ${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/7cb3bee27dcccbb5aff9
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1412088941/ButtonApi.o: ../../Library/buttons/ButtonApi.c  .generated_files/flags/default/6b4e2d06414bc20ffa1a8e4e79c76eefd7505f30 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d" -o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ../../Library/buttons/ButtonApi.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1412088941/Buttons.o: ../../Library/buttons/Buttons.c  .generated_files/flags/default/65fd9c36a83a8ccef542beed2b1706e7ec97b2e3 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/Buttons.o.d" -o ${OBJECTDIR}/_ext/1412088941/Buttons.o ../../Library/buttons/Buttons.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1730991999/UserFunctions.o: ../../Library/common/UserFunctions.c  .generated_files/flags/default/c51630df3aa5d195a90eb360b4e0c0be4d9e50cf .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1730991999" 
-	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d" -o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ../../Library/common/UserFunctions.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1811300662/fileio.o: ../../Library/fileio/fileio.c  .generated_files/flags/default/5155347909306e325ac7ae9722c312ecbbda68fb .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1811300662" 
-	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1811300662/fileio.o.d" -o ${OBJECTDIR}/_ext/1811300662/fileio.o ../../Library/fileio/fileio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/915785733/Indicator.o: ../../Library/indicator/Indicator.c  .generated_files/flags/default/216d5e7d0fbd200ebcd5f18a69db4e56695906f7 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/915785733" 
-	@${RM} ${OBJECTDIR}/_ext/915785733/Indicator.o.d 
-	@${RM} ${OBJECTDIR}/_ext/915785733/Indicator.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/915785733/Indicator.o.d" -o ${OBJECTDIR}/_ext/915785733/Indicator.o ../../Library/indicator/Indicator.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610024510/kit.o: ../../Library/kit/kit.c  .generated_files/flags/default/354c4f0f0389c74e2b933c1f7c1c2d332983b07a .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit.o ../../Library/kit/kit.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610024510/kit_usb_device.o: ../../Library/kit/kit_usb_device.c  .generated_files/flags/default/c6549bd741a9956c1aa0a6f807bb63fc3d3c686a .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ../../Library/kit/kit_usb_device.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o: ../../Library/kit/kit_usb_device_msd.c  .generated_files/flags/default/5a8bcac98fba1e874797a0fac08ac676cb1e663b .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ../../Library/kit/kit_usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/TaskManager.o: ../../Library/system/TaskManager.c  .generated_files/flags/default/427274509ded49985d269d0b61bd9f923dafb1e6 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TaskManager.o.d" -o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ../../Library/system/TaskManager.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/TickCounter.o: ../../Library/system/TickCounter.c  .generated_files/flags/default/695818059d5b7d808551648643544ce59c2ba640 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickCounter.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ../../Library/system/TickCounter.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/TickTimer.o: ../../Library/system/TickTimer.c  .generated_files/flags/default/8956c9a4b53c9318ae82949e8483981fa5d93c63 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickTimer.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ../../Library/system/TickTimer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/Wdt.o: ../../Library/system/Wdt.c  .generated_files/flags/default/75dfac963ef8aed4c380659f358772527ad7b704 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/Wdt.o.d" -o ${OBJECTDIR}/_ext/2096488509/Wdt.o ../../Library/system/Wdt.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610014608/usb_device_msd.o: ../../Library/usb/usb_device_msd.c  .generated_files/flags/default/4e03ec4d79f0112577c21ecf0635fc1ab01886da .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ../../Library/usb/usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o: ../../Library/usb/user_usb_device_events.c  .generated_files/flags/default/d93075269051ab3321a555cf8bdb4abad1eefe0a .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d" -o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ../../Library/usb/user_usb_device_events.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/cfg/Indicator_Cfg.o: cfg/Indicator_Cfg.c  .generated_files/flags/default/b0d99b1ebe11a2b48ac8d2a5a0ba995fdadb1979 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/cfg" 
-	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o.d 
-	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/cfg/Indicator_Cfg.o.d" -o ${OBJECTDIR}/cfg/Indicator_Cfg.o cfg/Indicator_Cfg.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
 else
 ${OBJECTDIR}/app/libcomp.o: app/libcomp.c  .generated_files/flags/default/6155e9af4b35fb6e59227986a9bb4371a1a74646 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
 	@${MKDIR} "${OBJECTDIR}/app" 
@@ -343,6 +337,90 @@ ${OBJECTDIR}/cfg/user_usb_device_descriptors.o: cfg/user_usb_device_descriptors.
 	@${RM} ${OBJECTDIR}/cfg/user_usb_device_descriptors.o.d 
 	@${RM} ${OBJECTDIR}/cfg/user_usb_device_descriptors.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/cfg/user_usb_device_descriptors.o.d" -o ${OBJECTDIR}/cfg/user_usb_device_descriptors.o cfg/user_usb_device_descriptors.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/cfg/usb_device_msd_cfg.o: cfg/usb_device_msd_cfg.c  .generated_files/flags/default/3163bb53d55de26d24d99cb7b08da589be355da6 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/cfg" 
+	@${RM} ${OBJECTDIR}/cfg/usb_device_msd_cfg.o.d 
+	@${RM} ${OBJECTDIR}/cfg/usb_device_msd_cfg.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/cfg/usb_device_msd_cfg.o.d" -o ${OBJECTDIR}/cfg/usb_device_msd_cfg.o cfg/usb_device_msd_cfg.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1412088941/ButtonApi.o: ../../Library/buttons/ButtonApi.c  .generated_files/flags/default/4fea075aa1eb9285f8608f88460db128ad024af1 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d" -o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ../../Library/buttons/ButtonApi.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1412088941/Buttons.o: ../../Library/buttons/Buttons.c  .generated_files/flags/default/4ebcca922c4d31886c0c640e7575724417c116cb .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/Buttons.o.d" -o ${OBJECTDIR}/_ext/1412088941/Buttons.o ../../Library/buttons/Buttons.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1730991999/UserFunctions.o: ../../Library/common/UserFunctions.c  .generated_files/flags/default/ebf46dc33ed63c59796e715be6edccff4306b886 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1730991999" 
+	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d" -o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ../../Library/common/UserFunctions.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1811300662/fileio.o: ../../Library/fileio/fileio.c  .generated_files/flags/default/1248b001ef852299fc1b7c90d95dfa82f083e36b .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1811300662" 
+	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1811300662/fileio.o.d" -o ${OBJECTDIR}/_ext/1811300662/fileio.o ../../Library/fileio/fileio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610024510/kit.o: ../../Library/kit/kit.c  .generated_files/flags/default/4dcda95a8fe316b12a9e6e8a6e8db647d73a24de .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit.o ../../Library/kit/kit.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610024510/kit_usb_device.o: ../../Library/kit/kit_usb_device.c  .generated_files/flags/default/f4bb74779d13e3b1ac6ae72c6e4c390dc64309c9 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ../../Library/kit/kit_usb_device.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o: ../../Library/kit/kit_usb_device_msd.c  .generated_files/flags/default/a133fcb3c76e6812927983a38ac407530fa719e9 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ../../Library/kit/kit_usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/TaskManager.o: ../../Library/system/TaskManager.c  .generated_files/flags/default/744c8bda4a9f1a5be295ae02e30bbf92dce1f67e .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TaskManager.o.d" -o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ../../Library/system/TaskManager.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/TickCounter.o: ../../Library/system/TickCounter.c  .generated_files/flags/default/c94b5f34363519db1ede0eefea8cc11b09160f0f .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickCounter.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ../../Library/system/TickCounter.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/TickTimer.o: ../../Library/system/TickTimer.c  .generated_files/flags/default/4d03c06cad9c02cd99d22e6a21282f3baf4aae8c .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickTimer.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ../../Library/system/TickTimer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/2096488509/Wdt.o: ../../Library/system/Wdt.c  .generated_files/flags/default/3826ffb2b67ed8fae23540448ce3c0d2d1356bf .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/Wdt.o.d" -o ${OBJECTDIR}/_ext/2096488509/Wdt.o ../../Library/system/Wdt.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610014608/usb_device_msd.o: ../../Library/usb/usb_device_msd.c  .generated_files/flags/default/f2e15d189e14cadf403fffb70fa64f072658736d .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ../../Library/usb/usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o: ../../Library/usb/user_usb_device_events.c  .generated_files/flags/default/c1c58f8208d60dda9abcf23651b85263b8821601 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
+	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d" -o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ../../Library/usb/user_usb_device_events.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o: mcc_generated_files/drivers/spi_master.c  .generated_files/flags/default/2bc741008ae33f698850c277c2f526574f71c9c7 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/drivers" 
@@ -433,96 +511,6 @@ ${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/90974fe47d3afadf84db
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1412088941/ButtonApi.o: ../../Library/buttons/ButtonApi.c  .generated_files/flags/default/4fea075aa1eb9285f8608f88460db128ad024af1 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/ButtonApi.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/ButtonApi.o.d" -o ${OBJECTDIR}/_ext/1412088941/ButtonApi.o ../../Library/buttons/ButtonApi.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1412088941/Buttons.o: ../../Library/buttons/Buttons.c  .generated_files/flags/default/4ebcca922c4d31886c0c640e7575724417c116cb .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1412088941" 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1412088941/Buttons.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1412088941/Buttons.o.d" -o ${OBJECTDIR}/_ext/1412088941/Buttons.o ../../Library/buttons/Buttons.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1730991999/UserFunctions.o: ../../Library/common/UserFunctions.c  .generated_files/flags/default/ebf46dc33ed63c59796e715be6edccff4306b886 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1730991999" 
-	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1730991999/UserFunctions.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1730991999/UserFunctions.o.d" -o ${OBJECTDIR}/_ext/1730991999/UserFunctions.o ../../Library/common/UserFunctions.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1811300662/fileio.o: ../../Library/fileio/fileio.c  .generated_files/flags/default/1248b001ef852299fc1b7c90d95dfa82f083e36b .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1811300662" 
-	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1811300662/fileio.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1811300662/fileio.o.d" -o ${OBJECTDIR}/_ext/1811300662/fileio.o ../../Library/fileio/fileio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/915785733/Indicator.o: ../../Library/indicator/Indicator.c  .generated_files/flags/default/dc0c2e27fa0620b2d5144449a1f42071a949af39 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/915785733" 
-	@${RM} ${OBJECTDIR}/_ext/915785733/Indicator.o.d 
-	@${RM} ${OBJECTDIR}/_ext/915785733/Indicator.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/915785733/Indicator.o.d" -o ${OBJECTDIR}/_ext/915785733/Indicator.o ../../Library/indicator/Indicator.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610024510/kit.o: ../../Library/kit/kit.c  .generated_files/flags/default/4dcda95a8fe316b12a9e6e8a6e8db647d73a24de .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit.o ../../Library/kit/kit.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610024510/kit_usb_device.o: ../../Library/kit/kit_usb_device.c  .generated_files/flags/default/f4bb74779d13e3b1ac6ae72c6e4c390dc64309c9 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device.o ../../Library/kit/kit_usb_device.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o: ../../Library/kit/kit_usb_device_msd.c  .generated_files/flags/default/a133fcb3c76e6812927983a38ac407530fa719e9 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610024510" 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610024510/kit_usb_device_msd.o ../../Library/kit/kit_usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/TaskManager.o: ../../Library/system/TaskManager.c  .generated_files/flags/default/744c8bda4a9f1a5be295ae02e30bbf92dce1f67e .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TaskManager.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TaskManager.o.d" -o ${OBJECTDIR}/_ext/2096488509/TaskManager.o ../../Library/system/TaskManager.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/TickCounter.o: ../../Library/system/TickCounter.c  .generated_files/flags/default/c94b5f34363519db1ede0eefea8cc11b09160f0f .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickCounter.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickCounter.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickCounter.o ../../Library/system/TickCounter.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/TickTimer.o: ../../Library/system/TickTimer.c  .generated_files/flags/default/4d03c06cad9c02cd99d22e6a21282f3baf4aae8c .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/TickTimer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/TickTimer.o.d" -o ${OBJECTDIR}/_ext/2096488509/TickTimer.o ../../Library/system/TickTimer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/2096488509/Wdt.o: ../../Library/system/Wdt.c  .generated_files/flags/default/3826ffb2b67ed8fae23540448ce3c0d2d1356bf .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/2096488509" 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o.d 
-	@${RM} ${OBJECTDIR}/_ext/2096488509/Wdt.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/2096488509/Wdt.o.d" -o ${OBJECTDIR}/_ext/2096488509/Wdt.o ../../Library/system/Wdt.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610014608/usb_device_msd.o: ../../Library/usb/usb_device_msd.c  .generated_files/flags/default/f2e15d189e14cadf403fffb70fa64f072658736d .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/usb_device_msd.o.d" -o ${OBJECTDIR}/_ext/1610014608/usb_device_msd.o ../../Library/usb/usb_device_msd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o: ../../Library/usb/user_usb_device_events.c  .generated_files/flags/default/c1c58f8208d60dda9abcf23651b85263b8821601 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/_ext/1610014608" 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o.d" -o ${OBJECTDIR}/_ext/1610014608/user_usb_device_events.o ../../Library/usb/user_usb_device_events.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/cfg/Indicator_Cfg.o: cfg/Indicator_Cfg.c  .generated_files/flags/default/605690a2b7d68165c96b82bbc2f4ddd192e06964 .generated_files/flags/default/90b386029bd3786c6bb60d0a18451b496f288066
-	@${MKDIR} "${OBJECTDIR}/cfg" 
-	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o.d 
-	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"app" -I"cfg" -I"mcc_generated_files" -I"mcc_generated_files/usb" -I"../../Library" -I"../../Library/usb" -ffunction-sections -fdata-sections -O2 -fno-common -DUSBCFG_H -DUSBGEN_H -D__USB_DESCRIPTORS_C -DCOMMON_LIB_CFG -MP -MMD -MF "${OBJECTDIR}/cfg/Indicator_Cfg.o.d" -o ${OBJECTDIR}/cfg/Indicator_Cfg.o cfg/Indicator_Cfg.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 endif
 

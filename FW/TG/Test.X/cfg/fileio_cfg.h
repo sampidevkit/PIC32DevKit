@@ -1,20 +1,13 @@
 #ifndef FILEIO_CFG_H
 #define FILEIO_CFG_H
 
-#define DRV_CONFIG_DRIVE_CAPACITY               4096 // *512 byte = useable drive volume
-#define DRV_SECTORS_PER_CLUSTER                 8 // *512 byte = cluster size (4kB)
-#define DRV_MAX_NUM_FILES_IN_ROOT               16
-#define DRV_NUM_RESERVED_SECTORS                1
-#define DRV_NUM_VBR_SECTORS                     1
-#define DRV_NUM_FAT_SECTORS                     1
-
 // Macro indicating how many drives can be mounted simultaneously.
 #define FILEIO_CONFIG_MAX_DRIVES                1
 // Delimiter for directories.
 #define FILEIO_CONFIG_DELIMITER                 '/'
 // Macro defining the maximum supported sector size for the FILEIO module.  This value should always be 512 , 1024, 2048, or 4096 bytes.
 // Most media uses 512-byte sector sizes.
-#define FILEIO_CONFIG_MEDIA_SECTOR_SIZE         512
+#define FILEIO_CONFIG_MEDIA_SECTOR_SIZE         4096
 // Uncomment FILEIO_CONFIG_FUNCTION_SEARCH to disable the functions used to search for files.
 #define FILEIO_CONFIG_SEARCH_DISABLE
 // Uncomment FILEIO_CONFIG_FUNCTION_FORMAT to disable the function used to format drives.

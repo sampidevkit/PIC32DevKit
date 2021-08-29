@@ -491,7 +491,7 @@ static void SD_SPI_DelayMilliseconds(uint8_t milliseconds)
     }
 }
 
-bool SD_SPI_MediaInitialize (void)
+void* SD_SPI_MediaInitialize (void)
 {
     uint16_t timeout;
     SD_RESPONSE response;
@@ -512,7 +512,7 @@ bool SD_SPI_MediaInitialize (void)
     //than 400kHz. Initialize SPI port to <= 400kHz
     if( SD_SPI_master_open(SDSLOW) == false )
     {
-        return false;
+        return NULL; // false;
     }
 
     //Media wants the longer of: Vdd ramp time, 1 ms fixed delay, or 74+ clock pulses.
@@ -575,7 +575,7 @@ bool SD_SPI_MediaInitialize (void)
             
             SD_SPI_ChipDeselect();
             SD_SPI_close();
-            return false;
+            return NULL; // false;
         }            
         else
         {
@@ -699,7 +699,7 @@ bool SD_SPI_MediaInitialize (void)
     SD_SPI_close();
     if(SD_SPI_master_open(SDFAST) == false)
     {
-        return false;
+        return NULL; // false;
     }
     
     SD_SPI_ChipSelect();
@@ -720,7 +720,7 @@ bool SD_SPI_MediaInitialize (void)
         
         SD_SPI_ChipDeselect();
         SD_SPI_close();
-        return false;
+        return NULL; // false;
     }    
 
     /* According to the simplified spec, section 7.2.6, the card will respond
@@ -815,11 +815,11 @@ bool SD_SPI_MediaInitialize (void)
     {
         mediaInformation.state = SD_STATE_READY_FOR_COMMAND;
         SD_SPI_close();
-        return true;
+        return &mediaInformation; // true;
     }
     
     SD_SPI_close();
-    return false;
+    return NULL; //false;
 }//end MediaInitialize
 
 static uint8_t SD_SPI_AsyncReadTasks(struct SD_ASYNC_IO* info)

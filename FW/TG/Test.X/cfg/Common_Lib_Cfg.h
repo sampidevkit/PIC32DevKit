@@ -45,14 +45,14 @@
 /* ****************************************************************** File IO */
 //#include "files_lite_cfg.h"
 //#include "fileio_lite_cfg.h"
-#include "files_cfg.h"
+//#include "files_cfg.h"
 #include "fileio_cfg.h"
 
 /* **************************************************************** Indicator */
 //#include "RGB_Led_Cfg.h"
 //#include "LedMatrix_Cfg.h"
 //#include "Led7Seg_Cfg.h"
-#include "Indicator_Cfg.h"
+//#include "Indicator_Cfg.h"
 
 /* ********************************************************************** Kit */
 //#include "kit_usb_cfg.h"

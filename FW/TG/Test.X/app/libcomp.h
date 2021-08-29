@@ -21,6 +21,8 @@
 #include "interrupt_manager.h"
 #include "drivers/spi_master.h"
 /* ************************************************************ SAMPI Library */
+#include "Buttons/Buttons.h"
+#include "Buttons/ButtonApi.h"
 #include "Common/LibDef.h"
 #include "Common/UserFunctions.h"
 #include "Kit/kit.h"
@@ -48,5 +50,6 @@
 
 public void DummyInterruptHandler(void);
 public void LibComp_Initialize(void);
-
+public bool Button_GetState(void);
+    
 #endif

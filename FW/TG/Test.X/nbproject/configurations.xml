@@ -19,9 +19,7 @@
         <itemPath>cfg/usb_device_msd_cfg.h</itemPath>
         <itemPath>cfg/user_usb_device_config.h</itemPath>
         <itemPath>cfg/Buttons_Cfg.h</itemPath>
-        <itemPath>cfg/Indicator_Cfg.h</itemPath>
         <itemPath>cfg/fileio_cfg.h</itemPath>
-        <itemPath>cfg/files_cfg.h</itemPath>
       </logicalFolder>
       <logicalFolder name="Library" displayName="Library" projectFiles="true">
         <logicalFolder name="buttons" displayName="buttons" projectFiles="true">
@@ -36,9 +34,6 @@
           <itemPath>../../Library/fileio/fileio.h</itemPath>
           <itemPath>../../Library/fileio/fileio_media.h</itemPath>
           <itemPath>../../Library/fileio/fileio_private.h</itemPath>
-        </logicalFolder>
-        <logicalFolder name="indicator" displayName="indicator" projectFiles="true">
-          <itemPath>../../Library/indicator/Indicator.h</itemPath>
         </logicalFolder>
         <logicalFolder name="kit" displayName="kit" projectFiles="true">
           <itemPath>../../Library/kit/kit.h</itemPath>
@@ -103,7 +98,7 @@
       </logicalFolder>
       <logicalFolder name="f1" displayName="Configure" projectFiles="true">
         <itemPath>cfg/user_usb_device_descriptors.c</itemPath>
-        <itemPath>cfg/Indicator_Cfg.c</itemPath>
+        <itemPath>cfg/usb_device_msd_cfg.c</itemPath>
       </logicalFolder>
       <logicalFolder name="Library" displayName="Library" projectFiles="true">
         <logicalFolder name="buttons" displayName="buttons" projectFiles="true">
@@ -115,9 +110,6 @@
         </logicalFolder>
         <logicalFolder name="fileio" displayName="fileio" projectFiles="true">
           <itemPath>../../Library/fileio/fileio.c</itemPath>
-        </logicalFolder>
-        <logicalFolder name="indicator" displayName="indicator" projectFiles="true">
-          <itemPath>../../Library/indicator/Indicator.c</itemPath>
         </logicalFolder>
         <logicalFolder name="kit" displayName="kit" projectFiles="true">
           <itemPath>../../Library/kit/kit.c</itemPath>
@@ -539,14 +531,56 @@
       <item path="mcc_generated_files/usb/usb_descriptors.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="mcc_generated_files/usb/usb_device_events.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="mcc_generated_files/usb/usb_device_generic.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
     </conf>
   </confs>
