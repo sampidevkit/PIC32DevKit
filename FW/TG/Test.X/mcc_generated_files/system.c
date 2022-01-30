@@ -83,15 +83,24 @@
 #include "pin_manager.h"
 #include "clock.h"
 #include "system.h"
+#include "spi2.h"
+#include "mccp3_compare.h"
 #include "usb/usb.h"
-#include "spi1_driver.h"
-#include "coretimer.h"
-#include "clc1.h"
-#include "drivers/spi_master.h"
 #include "interrupt_manager.h"
 #include "exceptions.h"
+#include "clc2.h"
+#include "cdac.h"
+#include "spi1_driver.h"
+#include "uart2.h"
+#include "drivers/spi_master.h"
+#include "i2c2_driver.h"
+#include "adc1.h"
+#include "i2c1.h"
+#include "spi3.h"
+#include "coretimer.h"
+#include "ext_int.h"
+#include "clc1.h"
 #include "uart1.h"
-#include "sd_spi/sd_spi.h"
 #include "rtcc.h"
 
 void SYSTEM_Initialize(void)
@@ -101,8 +110,17 @@ void SYSTEM_Initialize(void)
     INTERRUPT_Initialize();
     CORETIMER_Initialize();
     USBDeviceInit();
-    CLC1_Initialize();
+    MCCP3_COMPARE_Initialize();
     UART1_Initialize();
+    SPI3_Initialize();
+    CLC2_Initialize();
+    EXT_INT_Initialize();
+    UART2_Initialize();
+    I2C1_Initialize();
+    SPI2_Initialize();
+    CLC1_Initialize();
+    ADC1_Initialize();
+    CDAC_Initialize();
     RTCC_Initialize();
     INTERRUPT_GlobalEnable();
 }

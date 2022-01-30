@@ -1,17 +1,17 @@
 /**
-  CLC1 Generated Driver File
+  CLC2 Generated Driver File
 
   @Company
     Microchip Technology Inc.
 
   @File Name
-    clc1.c
+    clc2.c
 
   @Summary
-    This is the generated driver implementation file for the CLC1 driver using PIC24 / dsPIC33 / PIC32MM MCUs
+    This is the generated driver implementation file for the CLC2 driver using PIC24 / dsPIC33 / PIC32MM MCUs
 
   @Description
-    This source file provides implementations for driver APIs for CLC1.
+    This source file provides implementations for driver APIs for CLC2.
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.170.0
         Device            :  PIC32MM0256GPM064
@@ -46,49 +46,49 @@
   Section: Included Files
 */
 
-#include "clc1.h"
+#include "clc2.h"
 
 /**
-  Section: CLC1 APIs
+  Section: CLC2 APIs
 */
 
-void CLC1_Initialize(void)
+void CLC2_Initialize(void)
 {
-    // Set the CLC1 to the options selected in the User Interface
+    // Set the CLC2 to the options selected in the User Interface
 
-    // G1POL inverted; ON enabled; INTN disabled; G2POL not_inverted; G3POL not_inverted; G4POL not_inverted; LCPOL not_inverted; LCOUT disabled; INTP disabled; MODE 1-input transparent latch with S and R; LCOE enabled; 
-	CLC1CON = 0x18087 & ~(0x8000);
+    // G1POL inverted; ON enabled; INTN disabled; G2POL not_inverted; G3POL not_inverted; G4POL not_inverted; LCPOL not_inverted; LCOUT disabled; INTP disabled; MODE 1-input transparent latch with S and R; LCOE disabled; 
+	CLC2CON = 0x18007 & ~(0x8000);
 	
-    // DS2 ADC Conversion Done Interrupt; DS1 LPRC clock source; DS4 RTCC Event; DS3 SCCP4 Compare Event Interrupt; 
-    CLC1SEL = 0x5643;
+    // DS2 CMP1 Output; DS1 LPRC clock source; DS4 RTCC Event; DS3 SCCP4 OCM4 Output; 
+    CLC2SEL = 0x5523;
 	
-    // G1D1T disabled; G1D3T disabled; G2D2T disabled; G3D1T disabled; G2D4T enabled; G3D3T disabled; G4D2T disabled; G1D1N disabled; G4D4T disabled; G1D2N disabled; G2D1N disabled; G3D2N disabled; G4D1N disabled; G1D4N disabled; G2D3N disabled; G3D4N disabled; G4D3N disabled; G1D2T disabled; G2D1T disabled; G3D2T disabled; G4D1T disabled; G1D4T disabled; G2D3T disabled; G3D4T disabled; G4D3T disabled; G1D3N disabled; G2D2N disabled; G3D1N disabled; G2D4N disabled; G3D3N disabled; G4D2N disabled; G4D4N disabled; 
-    CLC1GLS = 0x8000;
+    // G1D1T disabled; G1D3T disabled; G2D2T disabled; G3D1T disabled; G2D4T disabled; G3D3T disabled; G4D2T disabled; G1D1N disabled; G4D4T disabled; G1D2N disabled; G2D1N disabled; G3D2N disabled; G4D1N disabled; G1D4N disabled; G2D3N disabled; G3D4N disabled; G4D3N disabled; G1D2T disabled; G2D1T disabled; G3D2T disabled; G4D1T disabled; G1D4T disabled; G2D3T disabled; G3D4T disabled; G4D3T disabled; G1D3N disabled; G2D2N disabled; G3D1N disabled; G2D4N disabled; G3D3N disabled; G4D2N disabled; G4D4N disabled; 
+    CLC2GLS = 0x00;
 	
 	
-	CLC1_Enable();	
+	CLC2_Enable();	
 }
 
-void __attribute__ ((weak)) CLC1_CallBack(void)
+void __attribute__ ((weak)) CLC2_CallBack(void)
 {
     // Add your custom callback code here
 }
 
-void CLC1_Tasks ( void )
+void CLC2_Tasks ( void )
 {
-	if(IFS1CLR= 1 << _IFS1_CLC1IF_POSITION)
+	if(IFS1CLR= 1 << _IFS1_CLC2IF_POSITION)
 	{
-		// CLC1 callback function 
-		CLC1_CallBack();
+		// CLC2 callback function 
+		CLC2_CallBack();
 		
-		// clear the CLC1 interrupt flag
-		IFS1CLR= 1 << _IFS1_CLC1IF_POSITION;
+		// clear the CLC2 interrupt flag
+		IFS1CLR= 1 << _IFS1_CLC2IF_POSITION;
 	}
 }
 
-bool CLC1_OutputStatusGet(void)
+bool CLC2_OutputStatusGet(void)
 {
-    return(CLC1CONbits.LCOUT);
+    return(CLC2CONbits.LCOUT);
 
 }
 /**

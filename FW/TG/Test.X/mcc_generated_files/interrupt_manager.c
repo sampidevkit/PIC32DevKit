@@ -60,6 +60,11 @@ void INTERRUPT_Initialize (void)
         IPC0bits.CTIP = 1;
     //    Sub Priority: 0
         IPC0bits.CTIS = 0;
+    //    CNBI: PORT B Change Notification
+    //    Priority: 7
+        IPC2bits.CNBIP = 7;
+    //    Sub Priority: 0
+        IPC2bits.CNBIS = 0;
     //    UERI: UART 1 Error
     //    Priority: 2
         IPC13bits.U1EIP = 2;
@@ -75,4 +80,29 @@ void INTERRUPT_Initialize (void)
         IPC13bits.U1RXIP = 2;
     //    Sub Priority: 0
         IPC13bits.U1RXIS = 0;
+    //    INT4I: External 4
+    //    Priority: 1
+        IPC1bits.INT4IP = 1;
+    //    Sub Priority: 0
+        IPC1bits.INT4IS = 0;
+    //    MICI: I2C 1 Master
+    //    Priority: 1
+        IPC16bits.I2C1MIP = 1;
+    //    Sub Priority: 0
+        IPC16bits.I2C1MIS = 0;
+    //    SICI: I2C 1 Slave
+    //    Priority: 1
+        IPC16bits.I2C1SIP = 1;
+    //    Sub Priority: 0
+        IPC16bits.I2C1SIS = 0;
+    //    MICI: I2C 2 Master
+    //    Priority: 1
+        IPC17bits.I2C2MIP = 1;
+    //    Sub Priority: 0
+        IPC17bits.I2C2MIS = 0;
+    //    SICI: I2C 2 Slave
+    //    Priority: 1
+        IPC17bits.I2C2SIP = 1;
+    //    Sub Priority: 0
+        IPC17bits.I2C2SIS = 0;
 }

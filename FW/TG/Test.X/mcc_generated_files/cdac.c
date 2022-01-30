@@ -1,22 +1,23 @@
-/**
-  @Generated PIC24 / dsPIC33 / PIC32MM MCUs Header File
 
-  @Company:
+/**
+  CDAC Generated Driver File 
+
+  @Company
     Microchip Technology Inc.
 
-  @File Name:
-    mcc.h
+  @File Name
+    cdac.c
 
-  @Summary:
-    This is the mcc.h file generated using PIC24 / dsPIC33 / PIC32MM MCUs
+  @Summary
+    This is the generated driver implementation file for the CDAC driver using PIC24 / dsPIC33 / PIC32MM MCUs
 
-  @Description:
-    This file will be removed in future MCC releases. Use system.h instead.
-    Generation Information :
+  @Description
+    This header file provides implementations for driver APIs for CDAC. 
+    Generation Information : 
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.170.0
         Device            :  PIC32MM0256GPM064
     The generated drivers are tested against the following:
-        Compiler          :  XC16 v1.61
+        Compiler          :  XC32 v2.50
         MPLAB             :  MPLAB X v5.45
 */
 
@@ -42,39 +43,22 @@
     TERMS.
 */
 
-#ifndef MCC_H
-#define	MCC_H
-#include <xc.h>
-#include "system.h"
-#include "clock.h"
-#include "pin_manager.h"
-#include <stdint.h>
-#include <stdbool.h>
-
-#include "spi2.h"
-#include "mccp3_compare.h"
-#include "usb/usb.h"
-#include "interrupt_manager.h"
-#include "exceptions.h"
-#include "clc2.h"
-#include "cdac.h"
-#include "spi1_driver.h"
-#include "watchdog.h"
-#include "uart2.h"
-#include "drivers/spi_master.h"
-#include "i2c2_driver.h"
-#include "adc1.h"
-#include "i2c1.h"
-#include "spi3.h"
-#include "coretimer.h"
-#include "ext_int.h"
-#include "clc1.h"
-#include "uart1.h"
-#include "rtcc.h"
-
-#warning "This file will be removed in future MCC releases. Use system.h instead."
-
-#endif	/* MCC_H */
 /**
- End of File
+  Section: Included Files
+*/
+
+#include "cdac.h"
+
+/**
+  Section: Driver Interface
+*/
+
+void CDAC_Initialize(void)
+{    
+    // ON Powered On; REFSEL AVSS; DACOE enabled; DACDAT 0;     
+    DAC1CON = 0x8100;              
+}
+
+/**
+  End of File
 */

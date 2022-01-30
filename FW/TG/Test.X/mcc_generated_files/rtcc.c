@@ -82,8 +82,8 @@ void RTCC_Initialize(void)
        // set 2021-08-28 11-57-20        
        ALMDATE = 0x82806; // Month/Date/Wday
        ALMTIME = 0x11572000; // hours/minutes/seconds
-       // ON enabled; OUTSEL Seconds Clock; WRLOCK disabled; AMASK Every Half Second; ALMRPT 0; RTCOE disabled; CHIME disabled; ALRMEN enabled; 
-       RTCCON1 = 0x80008010;
+       // ON enabled; OUTSEL Seconds Clock; WRLOCK disabled; AMASK Every Half Second; ALMRPT 0; RTCOE enabled; CHIME disabled; ALRMEN enabled; 
+       RTCCON1 = 0x80008090;
    
        // DIV 16383; CLKSEL SOSC; FDIV 0; 
        RTCCON2 = 0x3FFF0000;
