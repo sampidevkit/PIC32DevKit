@@ -2621,11 +2621,11 @@ inline static void SCK1_SetValue(bool value)
   @Example
     <code>
     // Set RC3 high (1)
-    SD_CS_N_SetHigh();
+    EE_CS_N_SetHigh();
     </code>
 
 */
-#define SD_CS_N_SetHigh()          ( LATCSET = (1 << 3) )
+#define EE_CS_N_SetHigh()          ( LATCSET = (1 << 3) )
 /**
   @Summary
     Sets the GPIO pin, RC3, low using LATC3.
@@ -2645,11 +2645,11 @@ inline static void SCK1_SetValue(bool value)
   @Example
     <code>
     // Set RC3 low (0)
-    SD_CS_N_SetLow();
+    EE_CS_N_SetLow();
     </code>
 
 */
-#define SD_CS_N_SetLow()           ( LATCCLR = (1 << 3) )
+#define EE_CS_N_SetLow()           ( LATCCLR = (1 << 3) )
 
 /**
   @Summary
@@ -2670,19 +2670,19 @@ inline static void SCK1_SetValue(bool value)
   @Example
     <code>
     // Set RC3 to low.
-    SD_CS_N_SetValue(false);
+    EE_CS_N_SetValue(false);
     </code>
 
 */
-inline static void SD_CS_N_SetValue(bool value)
+inline static void EE_CS_N_SetValue(bool value)
 {
   if(value)
   {
-    SD_CS_N_SetHigh();
+    EE_CS_N_SetHigh();
   }
   else
   {
-    SD_CS_N_SetLow();
+    EE_CS_N_SetLow();
   }
 }
 
@@ -2705,11 +2705,11 @@ inline static void SD_CS_N_SetValue(bool value)
   @Example
     <code>
     // Toggle RC3
-    SD_CS_N_Toggle();
+    EE_CS_N_Toggle();
     </code>
 
 */
-#define SD_CS_N_Toggle()           ( LATCINV = (1 << 3) )
+#define EE_CS_N_Toggle()           ( LATCINV = (1 << 3) )
 /**
   @Summary
     Reads the value of the GPIO pin, RC3.
@@ -2731,11 +2731,11 @@ inline static void SD_CS_N_SetValue(bool value)
     uint16_t portValue;
 
     // Read RC3
-    postValue = SD_CS_N_GetValue();
+    postValue = EE_CS_N_GetValue();
     </code>
 
 */
-#define SD_CS_N_GetValue()         PORTCbits.RC3
+#define EE_CS_N_GetValue()         PORTCbits.RC3
 /**
   @Summary
     Configures the GPIO pin, RC3, as an input.
@@ -2755,11 +2755,11 @@ inline static void SD_CS_N_SetValue(bool value)
   @Example
     <code>
     // Sets the RC3 as an input
-    SD_CS_N_SetDigitalInput();
+    EE_CS_N_SetDigitalInput();
     </code>
 
 */
-#define SD_CS_N_SetDigitalInput()   ( TRISCSET = (1 << 3) )
+#define EE_CS_N_SetDigitalInput()   ( TRISCSET = (1 << 3) )
 /**
   @Summary
     Configures the GPIO pin, RC3, as an output.
@@ -2779,11 +2779,11 @@ inline static void SD_CS_N_SetValue(bool value)
   @Example
     <code>
     // Sets the RC3 as an output
-    SD_CS_N_SetDigitalOutput();
+    EE_CS_N_SetDigitalOutput();
     </code>
 
 */
-#define SD_CS_N_SetDigitalOutput()   ( TRISCCLR = (1 << 3) )
+#define EE_CS_N_SetDigitalOutput()   ( TRISCCLR = (1 << 3) )
 /**
   @Summary
     Sets the GPIO pin, RC4, high using LATC4.
@@ -2803,11 +2803,11 @@ inline static void SD_CS_N_SetValue(bool value)
   @Example
     <code>
     // Set RC4 high (1)
-    EE_CS_N_SetHigh();
+    FL_CS_N_SetHigh();
     </code>
 
 */
-#define EE_CS_N_SetHigh()          ( LATCSET = (1 << 4) )
+#define FL_CS_N_SetHigh()          ( LATCSET = (1 << 4) )
 /**
   @Summary
     Sets the GPIO pin, RC4, low using LATC4.
@@ -2827,11 +2827,11 @@ inline static void SD_CS_N_SetValue(bool value)
   @Example
     <code>
     // Set RC4 low (0)
-    EE_CS_N_SetLow();
+    FL_CS_N_SetLow();
     </code>
 
 */
-#define EE_CS_N_SetLow()           ( LATCCLR = (1 << 4) )
+#define FL_CS_N_SetLow()           ( LATCCLR = (1 << 4) )
 
 /**
   @Summary
@@ -2852,19 +2852,19 @@ inline static void SD_CS_N_SetValue(bool value)
   @Example
     <code>
     // Set RC4 to low.
-    EE_CS_N_SetValue(false);
+    FL_CS_N_SetValue(false);
     </code>
 
 */
-inline static void EE_CS_N_SetValue(bool value)
+inline static void FL_CS_N_SetValue(bool value)
 {
   if(value)
   {
-    EE_CS_N_SetHigh();
+    FL_CS_N_SetHigh();
   }
   else
   {
-    EE_CS_N_SetLow();
+    FL_CS_N_SetLow();
   }
 }
 
@@ -2887,11 +2887,11 @@ inline static void EE_CS_N_SetValue(bool value)
   @Example
     <code>
     // Toggle RC4
-    EE_CS_N_Toggle();
+    FL_CS_N_Toggle();
     </code>
 
 */
-#define EE_CS_N_Toggle()           ( LATCINV = (1 << 4) )
+#define FL_CS_N_Toggle()           ( LATCINV = (1 << 4) )
 /**
   @Summary
     Reads the value of the GPIO pin, RC4.
@@ -2913,11 +2913,11 @@ inline static void EE_CS_N_SetValue(bool value)
     uint16_t portValue;
 
     // Read RC4
-    postValue = EE_CS_N_GetValue();
+    postValue = FL_CS_N_GetValue();
     </code>
 
 */
-#define EE_CS_N_GetValue()         PORTCbits.RC4
+#define FL_CS_N_GetValue()         PORTCbits.RC4
 /**
   @Summary
     Configures the GPIO pin, RC4, as an input.
@@ -2937,11 +2937,11 @@ inline static void EE_CS_N_SetValue(bool value)
   @Example
     <code>
     // Sets the RC4 as an input
-    EE_CS_N_SetDigitalInput();
+    FL_CS_N_SetDigitalInput();
     </code>
 
 */
-#define EE_CS_N_SetDigitalInput()   ( TRISCSET = (1 << 4) )
+#define FL_CS_N_SetDigitalInput()   ( TRISCSET = (1 << 4) )
 /**
   @Summary
     Configures the GPIO pin, RC4, as an output.
@@ -2961,11 +2961,11 @@ inline static void EE_CS_N_SetValue(bool value)
   @Example
     <code>
     // Sets the RC4 as an output
-    EE_CS_N_SetDigitalOutput();
+    FL_CS_N_SetDigitalOutput();
     </code>
 
 */
-#define EE_CS_N_SetDigitalOutput()   ( TRISCCLR = (1 << 4) )
+#define FL_CS_N_SetDigitalOutput()   ( TRISCCLR = (1 << 4) )
 /**
   @Summary
     Sets the GPIO pin, RC5, high using LATC5.
@@ -2985,11 +2985,11 @@ inline static void EE_CS_N_SetValue(bool value)
   @Example
     <code>
     // Set RC5 high (1)
-    FL_CS_N_SetHigh();
+    SD_CS_N_SetHigh();
     </code>
 
 */
-#define FL_CS_N_SetHigh()          ( LATCSET = (1 << 5) )
+#define SD_CS_N_SetHigh()          ( LATCSET = (1 << 5) )
 /**
   @Summary
     Sets the GPIO pin, RC5, low using LATC5.
@@ -3009,11 +3009,11 @@ inline static void EE_CS_N_SetValue(bool value)
   @Example
     <code>
     // Set RC5 low (0)
-    FL_CS_N_SetLow();
+    SD_CS_N_SetLow();
     </code>
 
 */
-#define FL_CS_N_SetLow()           ( LATCCLR = (1 << 5) )
+#define SD_CS_N_SetLow()           ( LATCCLR = (1 << 5) )
 
 /**
   @Summary
@@ -3034,19 +3034,19 @@ inline static void EE_CS_N_SetValue(bool value)
   @Example
     <code>
     // Set RC5 to low.
-    FL_CS_N_SetValue(false);
+    SD_CS_N_SetValue(false);
     </code>
 
 */
-inline static void FL_CS_N_SetValue(bool value)
+inline static void SD_CS_N_SetValue(bool value)
 {
   if(value)
   {
-    FL_CS_N_SetHigh();
+    SD_CS_N_SetHigh();
   }
   else
   {
-    FL_CS_N_SetLow();
+    SD_CS_N_SetLow();
   }
 }
 
@@ -3069,11 +3069,11 @@ inline static void FL_CS_N_SetValue(bool value)
   @Example
     <code>
     // Toggle RC5
-    FL_CS_N_Toggle();
+    SD_CS_N_Toggle();
     </code>
 
 */
-#define FL_CS_N_Toggle()           ( LATCINV = (1 << 5) )
+#define SD_CS_N_Toggle()           ( LATCINV = (1 << 5) )
 /**
   @Summary
     Reads the value of the GPIO pin, RC5.
@@ -3095,11 +3095,11 @@ inline static void FL_CS_N_SetValue(bool value)
     uint16_t portValue;
 
     // Read RC5
-    postValue = FL_CS_N_GetValue();
+    postValue = SD_CS_N_GetValue();
     </code>
 
 */
-#define FL_CS_N_GetValue()         PORTCbits.RC5
+#define SD_CS_N_GetValue()         PORTCbits.RC5
 /**
   @Summary
     Configures the GPIO pin, RC5, as an input.
@@ -3119,11 +3119,11 @@ inline static void FL_CS_N_SetValue(bool value)
   @Example
     <code>
     // Sets the RC5 as an input
-    FL_CS_N_SetDigitalInput();
+    SD_CS_N_SetDigitalInput();
     </code>
 
 */
-#define FL_CS_N_SetDigitalInput()   ( TRISCSET = (1 << 5) )
+#define SD_CS_N_SetDigitalInput()   ( TRISCSET = (1 << 5) )
 /**
   @Summary
     Configures the GPIO pin, RC5, as an output.
@@ -3143,11 +3143,11 @@ inline static void FL_CS_N_SetValue(bool value)
   @Example
     <code>
     // Sets the RC5 as an output
-    FL_CS_N_SetDigitalOutput();
+    SD_CS_N_SetDigitalOutput();
     </code>
 
 */
-#define FL_CS_N_SetDigitalOutput()   ( TRISCCLR = (1 << 5) )
+#define SD_CS_N_SetDigitalOutput()   ( TRISCCLR = (1 << 5) )
 /**
   @Summary
     Sets the GPIO pin, RC6, high using LATC6.
@@ -3514,6 +3514,188 @@ inline static void SCK2OUT_SetValue(bool value)
 #define SCK2OUT_SetDigitalOutput()   ( TRISCCLR = (1 << 7) )
 /**
   @Summary
+    Sets the GPIO pin, RC8, high using LATC8.
+
+  @Description
+    Sets the GPIO pin, RC8, high using LATC8.
+
+  @Preconditions
+    The RC8 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Set RC8 high (1)
+    LPU_C8_SetHigh();
+    </code>
+
+*/
+#define LPU_C8_SetHigh()          ( LATCSET = (1 << 8) )
+/**
+  @Summary
+    Sets the GPIO pin, RC8, low using LATC8.
+
+  @Description
+    Sets the GPIO pin, RC8, low using LATC8.
+
+  @Preconditions
+    The RC8 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Set RC8 low (0)
+    LPU_C8_SetLow();
+    </code>
+
+*/
+#define LPU_C8_SetLow()           ( LATCCLR = (1 << 8) )
+
+/**
+  @Summary
+    Sets a value to the GPIO pin.
+
+  @Description
+    Sets or Resets the GPIO pin, RC8, low or high using LATC8.
+
+  @Preconditions
+    The RC8 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    bool value; : value to be set to the GPIO pin.
+
+  @Example
+    <code>
+    // Set RC8 to low.
+    LPU_C8_SetValue(false);
+    </code>
+
+*/
+inline static void LPU_C8_SetValue(bool value)
+{
+  if(value)
+  {
+    LPU_C8_SetHigh();
+  }
+  else
+  {
+    LPU_C8_SetLow();
+  }
+}
+
+/**
+  @Summary
+    Toggles the GPIO pin, RC8, using LATC8.
+
+  @Description
+    Toggles the GPIO pin, RC8, using LATC8.
+
+  @Preconditions
+    The RC8 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Toggle RC8
+    LPU_C8_Toggle();
+    </code>
+
+*/
+#define LPU_C8_Toggle()           ( LATCINV = (1 << 8) )
+/**
+  @Summary
+    Reads the value of the GPIO pin, RC8.
+
+  @Description
+    Reads the value of the GPIO pin, RC8.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    uint16_t portValue;
+
+    // Read RC8
+    postValue = LPU_C8_GetValue();
+    </code>
+
+*/
+#define LPU_C8_GetValue()         PORTCbits.RC8
+/**
+  @Summary
+    Configures the GPIO pin, RC8, as an input.
+
+  @Description
+    Configures the GPIO pin, RC8, as an input.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Sets the RC8 as an input
+    LPU_C8_SetDigitalInput();
+    </code>
+
+*/
+#define LPU_C8_SetDigitalInput()   ( TRISCSET = (1 << 8) )
+/**
+  @Summary
+    Configures the GPIO pin, RC8, as an output.
+
+  @Description
+    Configures the GPIO pin, RC8, as an output.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Sets the RC8 as an output
+    LPU_C8_SetDigitalOutput();
+    </code>
+
+*/
+#define LPU_C8_SetDigitalOutput()   ( TRISCCLR = (1 << 8) )
+/**
+  @Summary
     Sets the GPIO pin, RC9, high using LATC9.
 
   @Description
@@ -3531,11 +3713,11 @@ inline static void SCK2OUT_SetValue(bool value)
   @Example
     <code>
     // Set RC9 high (1)
-    I2C1_PULLUP_EN_SetHigh();
+    IPU_C9_SetHigh();
     </code>
 
 */
-#define I2C1_PULLUP_EN_SetHigh()          ( LATCSET = (1 << 9) )
+#define IPU_C9_SetHigh()          ( LATCSET = (1 << 9) )
 /**
   @Summary
     Sets the GPIO pin, RC9, low using LATC9.
@@ -3555,11 +3737,11 @@ inline static void SCK2OUT_SetValue(bool value)
   @Example
     <code>
     // Set RC9 low (0)
-    I2C1_PULLUP_EN_SetLow();
+    IPU_C9_SetLow();
     </code>
 
 */
-#define I2C1_PULLUP_EN_SetLow()           ( LATCCLR = (1 << 9) )
+#define IPU_C9_SetLow()           ( LATCCLR = (1 << 9) )
 
 /**
   @Summary
@@ -3580,19 +3762,19 @@ inline static void SCK2OUT_SetValue(bool value)
   @Example
     <code>
     // Set RC9 to low.
-    I2C1_PULLUP_EN_SetValue(false);
+    IPU_C9_SetValue(false);
     </code>
 
 */
-inline static void I2C1_PULLUP_EN_SetValue(bool value)
+inline static void IPU_C9_SetValue(bool value)
 {
   if(value)
   {
-    I2C1_PULLUP_EN_SetHigh();
+    IPU_C9_SetHigh();
   }
   else
   {
-    I2C1_PULLUP_EN_SetLow();
+    IPU_C9_SetLow();
   }
 }
 
@@ -3615,11 +3797,11 @@ inline static void I2C1_PULLUP_EN_SetValue(bool value)
   @Example
     <code>
     // Toggle RC9
-    I2C1_PULLUP_EN_Toggle();
+    IPU_C9_Toggle();
     </code>
 
 */
-#define I2C1_PULLUP_EN_Toggle()           ( LATCINV = (1 << 9) )
+#define IPU_C9_Toggle()           ( LATCINV = (1 << 9) )
 /**
   @Summary
     Reads the value of the GPIO pin, RC9.
@@ -3641,11 +3823,11 @@ inline static void I2C1_PULLUP_EN_SetValue(bool value)
     uint16_t portValue;
 
     // Read RC9
-    postValue = I2C1_PULLUP_EN_GetValue();
+    postValue = IPU_C9_GetValue();
     </code>
 
 */
-#define I2C1_PULLUP_EN_GetValue()         PORTCbits.RC9
+#define IPU_C9_GetValue()         PORTCbits.RC9
 /**
   @Summary
     Configures the GPIO pin, RC9, as an input.
@@ -3665,11 +3847,11 @@ inline static void I2C1_PULLUP_EN_SetValue(bool value)
   @Example
     <code>
     // Sets the RC9 as an input
-    I2C1_PULLUP_EN_SetDigitalInput();
+    IPU_C9_SetDigitalInput();
     </code>
 
 */
-#define I2C1_PULLUP_EN_SetDigitalInput()   ( TRISCSET = (1 << 9) )
+#define IPU_C9_SetDigitalInput()   ( TRISCSET = (1 << 9) )
 /**
   @Summary
     Configures the GPIO pin, RC9, as an output.
@@ -3689,11 +3871,11 @@ inline static void I2C1_PULLUP_EN_SetValue(bool value)
   @Example
     <code>
     // Sets the RC9 as an output
-    I2C1_PULLUP_EN_SetDigitalOutput();
+    IPU_C9_SetDigitalOutput();
     </code>
 
 */
-#define I2C1_PULLUP_EN_SetDigitalOutput()   ( TRISCCLR = (1 << 9) )
+#define IPU_C9_SetDigitalOutput()   ( TRISCCLR = (1 << 9) )
 /**
   @Summary
     Sets the GPIO pin, RD0, high using LATD0.
@@ -3876,6 +4058,188 @@ inline static void SDO1_SetValue(bool value)
 
 */
 #define SDO1_SetDigitalOutput()   ( TRISDCLR = (1 << 0) )
+/**
+  @Summary
+    Sets the GPIO pin, RD1, high using LATD1.
+
+  @Description
+    Sets the GPIO pin, RD1, high using LATD1.
+
+  @Preconditions
+    The RD1 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Set RD1 high (1)
+    APU_D1_SetHigh();
+    </code>
+
+*/
+#define APU_D1_SetHigh()          ( LATDSET = (1 << 1) )
+/**
+  @Summary
+    Sets the GPIO pin, RD1, low using LATD1.
+
+  @Description
+    Sets the GPIO pin, RD1, low using LATD1.
+
+  @Preconditions
+    The RD1 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Set RD1 low (0)
+    APU_D1_SetLow();
+    </code>
+
+*/
+#define APU_D1_SetLow()           ( LATDCLR = (1 << 1) )
+
+/**
+  @Summary
+    Sets a value to the GPIO pin.
+
+  @Description
+    Sets or Resets the GPIO pin, RD1, low or high using LATD1.
+
+  @Preconditions
+    The RD1 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    bool value; : value to be set to the GPIO pin.
+
+  @Example
+    <code>
+    // Set RD1 to low.
+    APU_D1_SetValue(false);
+    </code>
+
+*/
+inline static void APU_D1_SetValue(bool value)
+{
+  if(value)
+  {
+    APU_D1_SetHigh();
+  }
+  else
+  {
+    APU_D1_SetLow();
+  }
+}
+
+/**
+  @Summary
+    Toggles the GPIO pin, RD1, using LATD1.
+
+  @Description
+    Toggles the GPIO pin, RD1, using LATD1.
+
+  @Preconditions
+    The RD1 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Toggle RD1
+    APU_D1_Toggle();
+    </code>
+
+*/
+#define APU_D1_Toggle()           ( LATDINV = (1 << 1) )
+/**
+  @Summary
+    Reads the value of the GPIO pin, RD1.
+
+  @Description
+    Reads the value of the GPIO pin, RD1.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    uint16_t portValue;
+
+    // Read RD1
+    postValue = APU_D1_GetValue();
+    </code>
+
+*/
+#define APU_D1_GetValue()         PORTDbits.RD1
+/**
+  @Summary
+    Configures the GPIO pin, RD1, as an input.
+
+  @Description
+    Configures the GPIO pin, RD1, as an input.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Sets the RD1 as an input
+    APU_D1_SetDigitalInput();
+    </code>
+
+*/
+#define APU_D1_SetDigitalInput()   ( TRISDSET = (1 << 1) )
+/**
+  @Summary
+    Configures the GPIO pin, RD1, as an output.
+
+  @Description
+    Configures the GPIO pin, RD1, as an output.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Sets the RD1 as an output
+    APU_D1_SetDigitalOutput();
+    </code>
+
+*/
+#define APU_D1_SetDigitalOutput()   ( TRISDCLR = (1 << 1) )
 /**
   @Summary
     Sets the GPIO pin, RD2, high using LATD2.

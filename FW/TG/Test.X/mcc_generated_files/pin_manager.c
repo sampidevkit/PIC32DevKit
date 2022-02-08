@@ -76,8 +76,8 @@ void PIN_MANAGER_Initialize (void)
      ***************************************************************************/
     TRISA = 0x09CC;
     TRISB = 0x8F7F;
-    TRISC = 0x01C3;
-    TRISD = 0x0016;
+    TRISC = 0x00C3;
+    TRISD = 0x0014;
 
     /****************************************************************************
      * Setting the Weak Pull Up and Weak Pull Down SFR(s)
@@ -104,7 +104,7 @@ void PIN_MANAGER_Initialize (void)
      ***************************************************************************/
     ANSELA = 0x000C;
     ANSELB = 0x4000;
-    ANSELC = 0x0103;
+    ANSELC = 0x0003;
 
     /****************************************************************************
      * Set the PPS
@@ -112,15 +112,15 @@ void PIN_MANAGER_Initialize (void)
     SYSTEM_RegUnlock(); // unlock PPS
     RPCONbits.IOLOCK = 0;
 
-    RPOR4bits.RP19R = 0x0011;    //RC2->CLC1:CLC1OUT
-    RPOR4bits.RP20R = 0x0009;    //RC7->SPI2:SCK2OUT
-    RPOR5bits.RP24R = 0x0012;    //RA9->CLC2:CLC2OUT
-    RPINR9bits.U2RXR = 0x000B;    //RB5->UART2:U2RX
-    RPINR11bits.SCK2INR = 0x0014;    //RC7->SPI2:SCK2OUT
-    RPOR3bits.RP15R = 0x0008;    //RB13->SPI2:SDO2
-    RPOR2bits.RP12R = 0x0004;    //RB7->UART2:U2TX
     RPINR1bits.INT4R = 0x0015;    //RA7->EXT_INT:INT4
     RPINR11bits.SDI2R = 0x0017;    //RC6->SPI2:SDI2
+    RPOR3bits.RP15R = 0x0008;    //RB13->SPI2:SDO2
+    RPOR5bits.RP24R = 0x0012;    //RA9->CLC2:CLC2OUT
+    RPINR11bits.SCK2INR = 0x0014;    //RC7->SPI2:SCK2OUT
+    RPINR9bits.U2RXR = 0x000B;    //RB5->UART2:U2RX
+    RPOR4bits.RP20R = 0x0009;    //RC7->SPI2:SCK2OUT
+    RPOR2bits.RP12R = 0x0004;    //RB7->UART2:U2TX
+    RPOR4bits.RP19R = 0x0011;    //RC2->CLC1:CLC1OUT
 
     RPCONbits.IOLOCK = 1; // lock   PPS
     SYSTEM_RegLock(); 
